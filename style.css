@@ -139,3 +139,103 @@ li {
     color: #fff;
     cursor: pointer;
 }
+
+.about{
+    width: 100vw;
+    height: 666px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .wrapper{
+    width: 1222px;
+    height: 479px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.about_text h2{
+    color: #499A18;
+    width: 463px;
+    height: 102px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: 40px;
+}
+
+.about_text p{
+    width: 605px;
+    height: 208px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.about_orange{
+    color:#E06733;
+}
+
+.about_img{
+    width: 464px;
+    height: 479px;
+}
+
+.service{
+    width: 100vw;  
+    height: 1300px;
+    background-color: #EDF2EC;
+    padding: 40px 109px 121px 109px;
+}
+
+.service_content{
+    width: 1007px;
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service_text{
+    width: 306px;
+    height: 94px;  
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;   
+    color: #499A18;
+}
+
+.service_btms{
+    width: 559px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.service_buttons{
+    width: 161px;
+    height: 50px;
+    border-radius: 5px;
+    color: #E06733;
+    border-color: #E06733;
+}
+
+.services{
+    border: 2px solid red;
+    width: 1222px;
+    height: 955px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
